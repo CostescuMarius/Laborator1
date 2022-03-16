@@ -1,0 +1,25 @@
+{
+   "persoana":{
+      "nume":"Marius"
+   },
+   "competenta":{
+      "numar_domenii":"3",
+      "lista_domenii":[
+         {
+            "denumire":"Java",
+            "scor":"4",
+            "e_frunza":"TRUE"
+         },
+         {
+            "denumire":"C",
+            "scor":"0",
+            "e_frunza":"FALSE"
+         },
+         {
+            "denumire":"C++",
+            "scor":"1",
+            "e_frunza":"TRUE"
+         }
+      ]
+   }
+}

@@ -23,7 +23,7 @@ public class Domeniu {
 			this.scor = 0;
 		}
 	}
-
+	
 	public void setDenumire(String denumirea)
 	{
 		this.denumire = denumirea;
