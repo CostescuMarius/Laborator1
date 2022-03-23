@@ -1,19 +1,20 @@
 package edu.marius;
 
+
 public class Competenta {
 	private int numar_domenii;
-	private Domeniu[] lista_domenii = new Domeniu[5];
+	private Domeniu[] lista_domenii = new Domeniu[3];
 	
 	public Competenta()
 	{
 	}
 	
-	public Competenta(int numar)
+	public Competenta(int numar, String denumire[], int scorul[])
 	{
 		this.numar_domenii = numar;
 		for(int i = 0; i < this.numar_domenii; i++)
 		{
-			this.lista_domenii[i] = new Domeniu();
+			this.lista_domenii[i] = new Domeniu(denumire[i], scorul[i]);
 		}
 	}
 	
@@ -33,12 +34,14 @@ public class Competenta {
 	
 	public void afisareDateDomeniu()
 	{
-		for(int i = 0; i < this.numar_domenii; i++)
+		int i = 1;
+		for(Domeniu domeniu : this.lista_domenii)
 		{
 			System.out.println("Domeniul " + i + ":");
-			System.out.println("\tDenumire: " + this.lista_domenii[i].getDenumire());
-			System.out.println("\tScor: " + this.lista_domenii[i].getScor());
-			if(this.lista_domenii[i].getEFrunza() == true)
+			i++;
+			System.out.println("\tDenumire: " + domeniu.getDenumire());
+			System.out.println("\tScor: " + domeniu.getScor());
+			if(domeniu.getEFrunza() == true)
 			{
 				System.out.println("\tE frunza");
 			}

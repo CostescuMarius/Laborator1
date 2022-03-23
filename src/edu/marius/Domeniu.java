@@ -10,17 +10,17 @@ public class Domeniu {
 		
 	}
 	
-	public Domeniu(String denumirea, int scorul, boolean frunza)
+	public Domeniu(String denumirea, int scorul)
 	{
-		this.e_frunza = frunza;
 		this.denumire = denumirea;
-		if(e_frunza = true)
+		this.scor = scorul;
+		if(this.scor == 0)
 		{
-			this.scor = scorul;
+			this.e_frunza = false;
 		}
 		else
 		{
-			this.scor = 0;
+			this.e_frunza = true;
 		}
 	}
 	
