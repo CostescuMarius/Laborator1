@@ -1,1 +1,48 @@
-[{"nume":"Marius","competenta":{"numar_domenii":3,"lista_domenii":[{"denumire":"C++","scor":1,"e_frunza":true},{"denumire":"Java","scor":2,"e_frunza":true},{"denumire":"C#","scor":0,"e_frunza":false}]}},{"nume":"Alex","competenta":{"numar_domenii":3,"lista_domenii":[{"denumire":"asd","scor":1,"e_frunza":true},{"denumire":"dsa","scor":0,"e_frunza":false},{"denumire":"qwe","scor":5,"e_frunza":true}]}}]
+[
+  {
+    "nume": "Marius",
+    "competenta": {
+      "numar_domenii": 3,
+      "lista_domenii": [
+        {
+          "denumire": "C++",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "Java",
+          "scor": 2,
+          "e_frunza": true
+        },
+        {
+          "denumire": "C#",
+          "scor": 0,
+          "e_frunza": false
+        }
+      ]
+    }
+  },
+  {
+    "nume": "Alex",
+    "competenta": {
+      "numar_domenii": 3,
+      "lista_domenii": [
+        {
+          "denumire": "asd",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "dsa",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "qwe",
+          "scor": 5,
+          "e_frunza": true
+        }
+      ]
+    }
+  }
+]

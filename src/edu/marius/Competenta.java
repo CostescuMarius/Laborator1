@@ -1,9 +1,12 @@
 package edu.marius;
 
+//import java.util.function.Consumer;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Competenta {
 	private int numar_domenii;
-	private Domeniu[] lista_domenii = new Domeniu[3];
+	private List<Domeniu> lista_domenii = new ArrayList<>();
 	
 	public Competenta()
 	{
@@ -14,17 +17,13 @@ public class Competenta {
 		this.numar_domenii = numar;
 		for(int i = 0; i < this.numar_domenii; i++)
 		{
-			this.lista_domenii[i] = new Domeniu(denumire[i], scorul[i]);
+			this.lista_domenii.add(new Domeniu(denumire[i], scorul[i]));
 		}
 	}
 	
 	public void setNumarDomenii(int numar)
 	{
 		this.numar_domenii = numar;
-		for(int i = 0; i < this.numar_domenii; i++)
-		{
-			this.lista_domenii[i] = new Domeniu();
-		}
 	}
 	
 	public int getNumarDomenii()
@@ -34,11 +33,11 @@ public class Competenta {
 	
 	public void afisareDateDomeniu()
 	{
-		int i = 1;
-		for(Domeniu domeniu : this.lista_domenii)
+		int[] iterator = {1};
+		this.lista_domenii.forEach((domeniu) ->
 		{
-			System.out.println("Domeniul " + i + ":");
-			i++;
+			System.out.println("Domeniul " + iterator[0] + ":");
+			iterator[0]++;
 			System.out.println("\tDenumire: " + domeniu.getDenumire());
 			System.out.println("\tScor: " + domeniu.getScor());
 			if(domeniu.getEFrunza() == true)
@@ -49,6 +48,6 @@ public class Competenta {
 			{
 				System.out.println("\tNu e frunza");
 			}
-		}
+		});
 	}
 }

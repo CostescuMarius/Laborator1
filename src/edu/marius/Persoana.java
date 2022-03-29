@@ -30,5 +30,6 @@ public class Persoana {
 		System.out.println("Nume persoana: " + this.nume);
 		System.out.println("Numar domenii: " + this.competenta.getNumarDomenii());
 		this.competenta.afisareDateDomeniu();
+		System.out.println("\n");
 	}
 }
