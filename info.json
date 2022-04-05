@@ -11,13 +11,13 @@
         },
         {
           "denumire": "Java",
-          "scor": 2,
-          "e_frunza": true
+          "scor": 0,
+          "e_frunza": false
         },
         {
           "denumire": "C#",
-          "scor": 0,
-          "e_frunza": false
+          "scor": 1,
+          "e_frunza": true
         }
       ]
     }

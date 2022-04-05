@@ -1,6 +1,7 @@
 package edu.marius;
 
-public class Persoana {
+
+public class Persoana implements ResursaUmana {
 	private String nume = new String();
 	private Competenta competenta = new Competenta();
 	
@@ -31,5 +32,16 @@ public class Persoana {
 		System.out.println("Numar domenii: " + this.competenta.getNumarDomenii());
 		this.competenta.afisareDateDomeniu();
 		System.out.println("\n");
+	}
+	
+	@Override
+	public String toString()
+	{
+		return this.getNume() + " " + this.competenta.toString();
+	}
+	
+	public void getSpecializare()
+	{
+		System.out.println("Necalificat");
 	}
 }

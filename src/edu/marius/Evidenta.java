@@ -3,13 +3,17 @@ package edu.marius;
 import java.util.ArrayList;
 import java.util.List;
 
+import GUI.Observer;
+
 public class Evidenta {
-	private static Evidenta evidenta = null;
 	private List<Persoana> persoane = new ArrayList<>();
+	private ArrayList<Observer> observatori;
 	
+	private static Evidenta evidenta = null;
+		
 	private Evidenta()
 	{
-		
+		observatori = new ArrayList<Observer>();
 	}
 	
 	public static Evidenta getInstance()
@@ -22,9 +26,9 @@ public class Evidenta {
 		return evidenta;
 	}
 	
-	public void adaugaPersoana(String numele, int numar, String denumire[], int scorul[])
+	public void addPersoana(Persoana p)
 	{
-		persoane.add(new Persoana(numele, numar, denumire, scorul));
+		persoane.add(p);
 	}
 	
 	public void serializare_date(DateJson date)
@@ -44,4 +48,41 @@ public class Evidenta {
 		});
 	}
 	
+	
+	public List<Persoana> getPersoane()
+	{
+		return persoane;
+	}
+	
+	public void AdaugaPersoana(Persoana p)
+	{
+		persoane.add(p);
+		
+		observatori.get(0).update();
+		
+	}
+	
+	public void ScoatePersoana(String nume)
+	{	
+		for(int i = 0; i < persoane.size(); i++)
+		{
+			if(persoane.get(i).getNume().equals(nume))
+			{
+				persoane.remove(i);
+			}
+			observatori.get(0).update();
+		}
+	}
+	
+	public void adaugaObserver(Observer o)
+	{
+		observatori.add(o);
+	}
+	
+	public void adaugareResurseUmana(Factory f)
+	{
+		ResursaUmana p;
+		p = f.crearePersoana("Inginer");
+		persoane.add((Persoana)p);
+	}
 }

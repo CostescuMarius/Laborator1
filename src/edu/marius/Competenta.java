@@ -1,6 +1,6 @@
 package edu.marius;
 
-//import java.util.function.Consumer;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -15,6 +15,7 @@ public class Competenta {
 	public Competenta(int numar, String denumire[], int scorul[])
 	{
 		this.numar_domenii = numar;
+		
 		for(int i = 0; i < this.numar_domenii; i++)
 		{
 			this.lista_domenii.add(new Domeniu(denumire[i], scorul[i]));
@@ -50,4 +51,18 @@ public class Competenta {
 			}
 		});
 	}
+	
+	
+	@Override
+	public String toString()
+	{
+		String str = "";
+		for(int i = 0; i < lista_domenii.size(); i++)
+		{
+			str = str + lista_domenii.get(i).getDenumire() + " ";
+		}
+		
+		return this.getNumarDomenii() + " " + str;
+	}
 }
+

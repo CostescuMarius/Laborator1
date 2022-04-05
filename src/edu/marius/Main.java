@@ -3,16 +3,17 @@ package edu.marius;
 import java.util.ArrayList;
 import java.util.List;
 
-//import GUI.Fereastra;
+import GUI.Fereastra;
 
 public class Main {
 
 	public static void main(String[] args) {
-		//Fereastra editor = new Fereastra();
+
 		
 		List<Persoana> persoane_temp = new ArrayList<>();
+
 		String denumire1[] = {"C++", "Java", "C#"};
-		int scorul1[] = {1, 2, 0};
+		int scorul1[] = {1, 0, 1};
 		persoane_temp.add(new Persoana("Marius", 3, denumire1, scorul1));
 		
 		String denumire2[] = {"asd", "dsa", "qwe"};
@@ -30,6 +31,9 @@ public class Main {
 		//observam ca cele doua instante ocupa aceeasi adresa in memorie
 		Evidenta ResurseUmane2 = Evidenta.getInstance();
 		ResurseUmane2.afisare_date();
+		
+		Fereastra editor = new Fereastra(ResurseUmane2);
+		ResurseUmane2.adaugaObserver(editor);
 	}
 
 }
