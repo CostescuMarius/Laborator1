@@ -13,6 +13,8 @@ import edu.marius.Persoana;
 public class Butoane {
 	private JButton btnAdauga = new JButton();
 	private JButton btnSterge = new JButton();
+	private JButton btnModifica = new JButton();
+	private JButton btnSchimbaListe = new JButton();
 	private JTextField text = new JTextField();
 
 	public Butoane()
@@ -23,8 +25,14 @@ public class Butoane {
 		btnSterge = new JButton("Sterge Persoana");
 		btnSterge.setBounds(320, 40, 140, 20);
 		
+		btnModifica = new JButton("Modifica Stare");
+		btnModifica.setBounds(320, 70, 140, 20);
+		
 		text = new JTextField(10);
-		text.setBounds(320, 80, 140, 20);
+		text.setBounds(320, 110, 140, 20);
+		
+		btnSchimbaListe = new JButton("Schimba Liste");
+		btnSchimbaListe.setBounds(320, 380, 140, 20);
 	}
 	
 	public void adaugare_butoane_in_fereastra(JFrame f, Evidenta Resurse)
@@ -38,7 +46,8 @@ public class Butoane {
 				String nume = text.getText();
 				String denumire[] = {"aaa", "bbb", "ccc"};
 				int scor[] = {1, 0, 1};
-				Persoana p_temp = new Persoana(nume, 3, denumire, scor);
+				Persoana p_temp = new Persoana.Builder().seteazaNume(nume).seteazaActiv(true).seteazaCompetenta(3, 
+						denumire, scor).build();
 				Resurse.AdaugaPersoana(p_temp);
 			}
 		});
@@ -53,5 +62,26 @@ public class Butoane {
 			}
 		});
 		f.add(btnSterge);
+		
+		btnModifica.addActionListener(new ActionListener()
+		{
+			public void actionPerformed(ActionEvent e)
+			{
+				String nume = text.getText();
+				
+				Resurse.ModificaStarePersoana(nume);
+			}
+		});
+		f.add(btnModifica);
+		
+
+		btnSchimbaListe.addActionListener(new ActionListener()
+		{
+			public void actionPerformed(ActionEvent e)
+			{
+				Resurse.SchimbaListe();
+			}
+		});
+		f.add(btnSchimbaListe);
 	}
 }

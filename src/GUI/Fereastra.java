@@ -1,9 +1,12 @@
 package GUI;
 
+import java.util.List;
+
 import javax.swing.JFrame;
 import javax.swing.JList;
 
 import edu.marius.Evidenta;
+import edu.marius.Persoana;
 
 public class Fereastra implements Observer{
 
@@ -19,10 +22,10 @@ public class Fereastra implements Observer{
 		f.setVisible(true);
 		f.setSize(500, 500);
 		f.setTitle("Editor Resurse Umane");
-		
+		f.setResizable(false);
 		evidenta = e;
 		
-		lista = new JList<>(evidenta.getPersoane().toArray());
+		lista = new JList<>(evidenta.getPersoaneActive().toArray());
 		lista.setBounds(10, 10, 300, 400);
 		f.add(lista);
 		
@@ -31,9 +34,9 @@ public class Fereastra implements Observer{
 	}
 	
 	@Override
-	public void update() 
+	public void update(List<Persoana> list) 
 	{
-		lista.setListData(evidenta.getPersoane().toArray());
+		lista.setListData(list.toArray());
 	}
 	
 }

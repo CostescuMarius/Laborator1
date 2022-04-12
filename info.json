@@ -1,6 +1,7 @@
 [
   {
     "nume": "Marius",
+    "activ": true,
     "competenta": {
       "numar_domenii": 3,
       "lista_domenii": [
@@ -24,6 +25,7 @@
   },
   {
     "nume": "Alex",
+    "activ": true,
     "competenta": {
       "numar_domenii": 3,
       "lista_domenii": [
@@ -39,6 +41,30 @@
         },
         {
           "denumire": "qwe",
+          "scor": 5,
+          "e_frunza": true
+        }
+      ]
+    }
+  },
+  {
+    "nume": "Mihai",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 3,
+      "lista_domenii": [
+        {
+          "denumire": "ddd",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "eee",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "fff",
           "scor": 5,
           "e_frunza": true
         }
