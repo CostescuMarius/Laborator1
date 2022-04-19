@@ -7,6 +7,7 @@ import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JTextField;
 
+import edu.marius.Builder;
 import edu.marius.Evidenta;
 import edu.marius.Persoana;
 
@@ -46,7 +47,7 @@ public class Butoane {
 				String nume = text.getText();
 				String denumire[] = {"aaa", "bbb", "ccc"};
 				int scor[] = {1, 0, 1};
-				Persoana p_temp = new Persoana.Builder().seteazaNume(nume).seteazaActiv(true).seteazaCompetenta(3, 
+				Persoana p_temp = new Builder().seteazaNume(nume).seteazaActiv(true).seteazaCompetenta(3, 
 						denumire, scor).build();
 				Resurse.AdaugaPersoana(p_temp);
 			}

@@ -3,31 +3,7 @@
     "nume": "Marius",
     "activ": true,
     "competenta": {
-      "numar_domenii": 3,
-      "lista_domenii": [
-        {
-          "denumire": "C++",
-          "scor": 1,
-          "e_frunza": true
-        },
-        {
-          "denumire": "Java",
-          "scor": 0,
-          "e_frunza": false
-        },
-        {
-          "denumire": "C#",
-          "scor": 1,
-          "e_frunza": true
-        }
-      ]
-    }
-  },
-  {
-    "nume": "Alex",
-    "activ": true,
-    "competenta": {
-      "numar_domenii": 3,
+      "numar_domenii": 2,
       "lista_domenii": [
         {
           "denumire": "asd",
@@ -35,38 +11,9 @@
           "e_frunza": true
         },
         {
-          "denumire": "dsa",
+          "denumire": "asd",
           "scor": 0,
           "e_frunza": false
-        },
-        {
-          "denumire": "qwe",
-          "scor": 5,
-          "e_frunza": true
-        }
-      ]
-    }
-  },
-  {
-    "nume": "Mihai",
-    "activ": true,
-    "competenta": {
-      "numar_domenii": 3,
-      "lista_domenii": [
-        {
-          "denumire": "ddd",
-          "scor": 1,
-          "e_frunza": true
-        },
-        {
-          "denumire": "eee",
-          "scor": 0,
-          "e_frunza": false
-        },
-        {
-          "denumire": "fff",
-          "scor": 5,
-          "e_frunza": true
         }
       ]
     }

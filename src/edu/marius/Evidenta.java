@@ -97,7 +97,7 @@ public class Evidenta {
 	{
 		persoane.add(p);
 		
-		observatori.get(0).update(getPersoane());
+		observatori.get(0).update(getPersoaneActive());
 		
 	}
 	
@@ -119,9 +119,18 @@ public class Evidenta {
 		{
 			if(persoane.get(i).getNume().equals(nume))
 			{
-				persoane.get(i).setActiv(false);
+				if(persoane.get(i).getActiv() == true)
+				{
+					persoane.get(i).setActiv(false);
+					observatori.get(0).update(getPersoaneActive());
+				}
+				else
+				{
+					persoane.get(i).setActiv(true);
+					observatori.get(0).update(getPersoaneInactive());
+				}
 			}
-			observatori.get(0).update(getPersoaneActive());
+
 		}
 	}
 	
