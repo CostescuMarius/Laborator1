@@ -43,10 +43,6 @@ public class Evidenta {
 	
 	public void afisare_date()
 	{
-		/*persoane.forEach((persoana) -> {
-			persoana.afisare_date();
-		});*/
-		
 		for(Iterator iter = getIterator(); iter.hasNext();)
 		{
 			Persoana pers = (Persoana)iter.next();

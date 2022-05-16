@@ -18,28 +18,37 @@ public class Butoane {
 	private JButton btnSchimbaListe = new JButton();
 	private JTextField text = new JTextField();
 
-	public Butoane()
+	public Butoane(Evidenta Resurse)
+	{
+		creare_butoane(Resurse);
+		creare_text_field();
+	}
+	
+	private void creare_butoane(Evidenta Resurse)
 	{
 		btnAdauga = new JButton("Adauga Persoana");
 		btnAdauga.setBounds(320, 10, 140, 20);
+		functie_buton_adauga(Resurse);
+		btnAdauga.setVisible(true);
 		
 		btnSterge = new JButton("Sterge Persoana");
 		btnSterge.setBounds(320, 40, 140, 20);
+		functie_buton_sterge(Resurse);
+		btnSterge.setVisible(true);
 		
 		btnModifica = new JButton("Modifica Stare");
 		btnModifica.setBounds(320, 70, 140, 20);
-		
-		text = new JTextField(10);
-		text.setBounds(320, 110, 140, 20);
+		functie_buton_modifica(Resurse);
+		btnModifica.setVisible(true);
 		
 		btnSchimbaListe = new JButton("Schimba Liste");
 		btnSchimbaListe.setBounds(320, 380, 140, 20);
+		functie_buton_schimba(Resurse);
+		btnSchimbaListe.setVisible(true);
 	}
 	
-	public void adaugare_butoane_in_fereastra(JFrame f, Evidenta Resurse)
-	{			
-		f.add(text);
-		
+	private void functie_buton_adauga(Evidenta Resurse)
+	{
 		btnAdauga.addActionListener(new ActionListener()
 		{
 			public void actionPerformed(ActionEvent e)
@@ -52,8 +61,10 @@ public class Butoane {
 				Resurse.AdaugaPersoana(p_temp);
 			}
 		});
-		f.add(btnAdauga);
-		
+	}
+	
+	private void functie_buton_sterge(Evidenta Resurse)
+	{
 		btnSterge.addActionListener(new ActionListener()
 		{
 			public void actionPerformed(ActionEvent e)
@@ -62,8 +73,10 @@ public class Butoane {
 				Resurse.ScoatePersoana(nume);
 			}
 		});
-		f.add(btnSterge);
-		
+	}
+	
+	private void functie_buton_modifica(Evidenta Resurse)
+	{
 		btnModifica.addActionListener(new ActionListener()
 		{
 			public void actionPerformed(ActionEvent e)
@@ -73,8 +86,10 @@ public class Butoane {
 				Resurse.ModificaStarePersoana(nume);
 			}
 		});
-		f.add(btnModifica);
-		
+	}
+	
+	private void functie_buton_schimba(Evidenta Resurse)
+	{
 
 		btnSchimbaListe.addActionListener(new ActionListener()
 		{
@@ -83,6 +98,32 @@ public class Butoane {
 				Resurse.SchimbaListe();
 			}
 		});
+	}
+	
+	public void adaugare_butoane_in_fereastra(JFrame f)
+	{				
+		f.add(btnAdauga);
+		
+
+		f.add(btnSterge);
+		
+		
+		f.add(btnModifica);
+		
+
 		f.add(btnSchimbaListe);
 	}
+	
+	private void creare_text_field()
+	{
+		text = new JTextField(10);
+		text.setBounds(320, 110, 140, 20);
+		text.setVisible(true);
+	}
+	
+	public void adaugare_text_in_fereastra(JFrame f)
+	{
+		f.add(text);
+	}
+	
 }

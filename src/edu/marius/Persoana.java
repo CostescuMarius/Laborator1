@@ -2,7 +2,7 @@ package edu.marius;
 
 //import edu.marius.Evidenta.Builder;
 
-public class Persoana implements ResursaUmana {
+public class Persoana implements ResursaUmana { //open-closed principle
 	private String nume = new String();
 	private boolean activ;
 	private Competenta competenta = new Competenta();
