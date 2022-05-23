@@ -14,13 +14,13 @@ public class Facade {
 	    Scanner scan= new Scanner(System.in);
 		int optiune = 1;
 		
-		do
+		/*do
 		{
 			citire_persoane_consola();
-			
+		
 			System.out.println("Continuati? 1/0");
 			optiune = scan.nextInt();
-		}while(optiune != 0);
+		}while(optiune != 0);*/
 
 		
 		

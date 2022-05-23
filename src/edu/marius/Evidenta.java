@@ -1,7 +1,10 @@
 package edu.marius;
 
+import java.awt.Color;
 import java.util.ArrayList;
 import java.util.List;
+
+import javax.swing.JLabel;
 
 import GUI.Observer;
 
@@ -10,6 +13,8 @@ public class Evidenta {
 	private ArrayList<Observer> observatori;
 	
 	private static Evidenta evidenta = null;
+	
+	public int evidenta_lista = 1;
 	
 	private Evidenta()
 	{
@@ -59,7 +64,7 @@ public class Evidenta {
 		return persoane;
 	}
 	
-	public List<Persoana> getPersoaneActive()
+	/*public List<Persoana> getPersoaneActive()
 	{
 		List<Persoana> lista_temp = new ArrayList<>();
 		
@@ -72,6 +77,20 @@ public class Evidenta {
 			}
 		}
 		
+		return lista_temp;
+	}*/
+	
+	public List<Persoana> getPersoaneActive()
+	{
+		List<Persoana> lista_temp = new ArrayList<>();
+		
+		for(int i = 0; i < persoane.size(); i++)
+		{
+			if(persoane.get(i).getActiv() == true)
+			{
+				lista_temp.add(persoane.get(i));
+			}
+		}
 		return lista_temp;
 	}
 	
@@ -93,8 +112,7 @@ public class Evidenta {
 	{
 		persoane.add(p);
 		
-		observatori.get(0).update(getPersoaneActive());
-		
+		observatori.get(0).update(getPersoane());
 	}
 	
 	public void ScoatePersoana(String nume)
@@ -118,19 +136,44 @@ public class Evidenta {
 				if(persoane.get(i).getActiv() == true)
 				{
 					persoane.get(i).setActiv(false);
-					observatori.get(0).update(getPersoaneActive());
 				}
 				else
 				{
 					persoane.get(i).setActiv(true);
-					observatori.get(0).update(getPersoaneInactive());
 				}
 			}
 
+			if(evidenta_lista == 1)
+			{
+				observatori.get(0).update(getPersoane());
+			}
+			else if(evidenta_lista == 2)
+			{
+				observatori.get(0).update_activi(getPersoaneActive());
+			}
+			else if(evidenta_lista == 3)
+			{
+				observatori.get(0).update_inactivi(getPersoaneInactive());
+			}
 		}
 	}
 	
-	private boolean prima_lista = true;
+	public void AfisarePersonalTotal()
+	{
+		observatori.get(0).update(getPersoane());
+	}
+	
+	public void AfisarePersonalActiv()
+	{
+		observatori.get(0).update_activi(getPersoaneActive());
+	}
+	
+	public void AfisarePersonalInactiv()
+	{
+		observatori.get(0).update_inactivi(getPersoaneInactive());
+	}
+	
+	/*private boolean prima_lista = true;
 	public void SchimbaListe()
 	{
 		if(prima_lista)
@@ -143,6 +186,39 @@ public class Evidenta {
 		{
 			observatori.get(0).update(getPersoaneActive());
 			this.prima_lista = true;
+		}
+	}*/
+	
+	/*public void afisare_detalii_persoana(Object pers)
+	{
+		List<Competenta> comp_temp = new ArrayList<>();
+		for(int i = 0; i < persoane.size(); i++)
+		{
+			if(persoane.get(i).equals(pers))
+			{
+				comp_temp.add(persoane.get(i).getCompetenta());
+			}
+		}
+		
+		observatori.get(0).update_lista_detalii(comp_temp);
+	}*/
+	
+	public void afisare_detalii_persoana(Object pers, JLabel label_fundal)
+	{
+		for(int i = 0; i < persoane.size(); i++)
+		{
+			if(persoane.get(i).equals(pers))
+			{
+				JLabel label_nume = new JLabel();
+				//label_nume.setText(persoane.get(i).getNume());
+				//label_nume.setBounds(10, 10, 50, 50);
+				//label_nume.setForeground(Color.cyan);
+				label_nume.setBackground(Color.cyan);
+				label_nume.setOpaque(true);
+				label_nume.setBounds(590, 40, 880, 710);
+				
+				label_fundal.add(label_nume);
+			}
 		}
 	}
 	

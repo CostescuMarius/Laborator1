@@ -48,10 +48,15 @@ public class Persoana implements ResursaUmana { //open-closed principle
 		System.out.println("\n");
 	}
 	
+	public Competenta getCompetenta()
+	{
+		return this.competenta;
+	}
+	
 	@Override
 	public String toString()
 	{
-		return this.getNume() + " " + this.competenta.toString();
+		return this.getNume(); // + " " + this.competenta.toString();
 	}
 	
 	public void getSpecializare()
