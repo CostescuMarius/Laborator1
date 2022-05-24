@@ -309,7 +309,7 @@ public class Butoane {
 		}
 		
 		Random rand = new Random();
-		int nr_competente = 1 + rand.nextInt(3);
+		int nr_competente = 3 + rand.nextInt(4);
 		
 		
 		String denumire[]= new String[nr_competente];
@@ -318,7 +318,7 @@ public class Butoane {
 		for(int i = 0; i < nr_competente; i++)
 		{
 			denumire[i] = generare_competenta_random();
-			scor[i] = rand.nextInt(5);
+			scor[i] = rand.nextInt(2);
 		}
 
 		Persoana p_temp = new Builder().seteazaNume(nume).seteazaActiv(true).seteazaCompetenta(nr_competente, 

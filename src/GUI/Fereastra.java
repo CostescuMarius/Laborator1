@@ -27,6 +27,7 @@ public class Fereastra implements Observer{
 	private Meniu meniu = new Meniu();
 	private Butoane butoane;
 	private JLabel lbl_fundal = new JLabel();
+	private JLabel[] celule_arbore = new JLabel[10];
 	Evidenta evidenta;
 	JList<Object> lista_nume;
 	JList<Object> date_persoana;
@@ -47,7 +48,8 @@ public class Fereastra implements Observer{
 		
 		selectare_element_lista();
 		
-		adaugare_fundal_arbore();
+		//adaugare_fundal_arbore();
+		adaugare_celule_arbore();
 	}
 	
 	private void setare_fereastra()
@@ -78,6 +80,16 @@ public class Fereastra implements Observer{
 		//f.add(date_persoana);
 	}
 	
+	public void adaugare_celule_arbore()
+	{
+		for(int i = 0; i < 10; i++)
+		{
+			celule_arbore[i] = new JLabel();
+			f.add(celule_arbore[i]);
+			celule_arbore[i].setVisible(false);
+		}
+	}
+	
 	private void adaugare_fundal_arbore()
 	{
 		lbl_fundal.setBounds(590, 40, 880, 710);
@@ -93,7 +105,7 @@ public class Fereastra implements Observer{
             public void valueChanged(ListSelectionEvent event) {
                 if (!event.getValueIsAdjusting()){
             		//evidenta.afisare_detalii_persoana(lista_nume.getSelectedValue());
-                	evidenta.afisare_detalii_persoana(lista_nume.getSelectedValue(), lbl_fundal);
+                	evidenta.afisare_detalii_persoana(lista_nume.getSelectedValue(), celule_arbore);
                 }
             }
         });

@@ -4,8 +4,10 @@ import java.awt.Color;
 import java.util.ArrayList;
 import java.util.List;
 
+import javax.swing.JFrame;
 import javax.swing.JLabel;
 
+import GUI.Fereastra;
 import GUI.Observer;
 
 public class Evidenta {
@@ -203,21 +205,62 @@ public class Evidenta {
 		observatori.get(0).update_lista_detalii(comp_temp);
 	}*/
 	
-	public void afisare_detalii_persoana(Object pers, JLabel label_fundal)
+	public void afisare_detalii_persoana(Object pers, JLabel[] celule)
 	{
+		for(int k = 0; k < 10; k++)
+		{
+			celule[k].setVisible(false);
+		}
+		
+		Integer[] x = new Integer[10];
+		Integer[] y = new Integer[10];
+		Integer[] z = new Integer[10];
+		Integer[] t = new Integer[10];
+		
+		x[0] = 1000;
+		y[0] = 70;
+		z[0] = 140;
+		t[0] = 20;
+		
 		for(int i = 0; i < persoane.size(); i++)
 		{
 			if(persoane.get(i).equals(pers))
 			{
-				JLabel label_nume = new JLabel();
-				//label_nume.setText(persoane.get(i).getNume());
-				//label_nume.setBounds(10, 10, 50, 50);
-				//label_nume.setForeground(Color.cyan);
-				label_nume.setBackground(Color.cyan);
-				label_nume.setOpaque(true);
-				label_nume.setBounds(590, 40, 880, 710);
+				celule[0].setBounds(x[0], y[0], z[0], t[0]);
+				celule[0].setText(persoane.get(i).getNume());
+				celule[0].setVisible(true);
 				
-				label_fundal.add(label_nume);
+				x[1] = x[0] - 100;
+				y[1] = y[0] + 30;
+				z[1] = z[0];
+				t[1] = t[0];
+				
+				for(int j = 0; j < persoane.get(i).getNrCompetente(); j++)
+				{
+					if(persoane.get(i).getScorCompetenta(j) == 0)
+					{
+						celule[j + 1].setBounds(x[j + 1], y[j + 1], z[j + 1], t[j + 1]);
+						celule[j + 1].setText(persoane.get(i).getNumeCompetenta(j));
+						celule[j + 1].setVisible(true);
+						
+						x[j + 2] = x[j + 1] + 100;
+						y[j + 2] = y[j + 1];
+						z[j + 2] = z[j + 1];
+						t[j + 2] = t[j + 1];
+					}
+					
+					else
+					{
+						celule[j + 1].setBounds(x[j + 1], y[j + 1], z[j + 1], t[j + 1]);
+						celule[j + 1].setText(persoane.get(i).getNumeCompetenta(j));
+						celule[j + 1].setVisible(true);
+						
+						x[j + 2] = x[j + 1] - 100;
+						y[j + 2] = y[j + 1] + 30;
+						z[j + 2] = z[j + 1];
+						t[j + 2] = t[j + 1];
+					}
+				}
 			}
 		}
 	}

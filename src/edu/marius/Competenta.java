@@ -32,6 +32,16 @@ public class Competenta {
 		return this.numar_domenii;
 	}
 	
+	public int getScorDomeniu(int index)
+	{
+		return this.lista_domenii.get(index).getScor();
+	}
+	
+	public String getNumeDomeniu(int index)
+	{
+		return this.lista_domenii.get(index).getDenumire();
+	}
+	
 	public void afisareDateDomeniu()
 	{
 		int[] iterator = {1};

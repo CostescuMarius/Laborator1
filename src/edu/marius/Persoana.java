@@ -30,6 +30,21 @@ public class Persoana implements ResursaUmana { //open-closed principle
 		return this.nume;
 	}
 	
+	public int getNrCompetente()
+	{
+		return this.competenta.getNumarDomenii();
+	}
+	
+	public int getScorCompetenta(int index)
+	{
+		return this.competenta.getScorDomeniu(index);
+	}
+	
+	public String getNumeCompetenta(int index)
+	{
+		return this.competenta.getNumeDomeniu(index);
+	}
+	
 	public void setActiv(boolean activ)
 	{
 		this.activ = activ;
