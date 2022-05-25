@@ -20,7 +20,7 @@ public class Facade {
 		
 			System.out.println("Continuati? 1/0");
 			optiune = scan.nextInt();
-		}while(optiune != 0);*/
+		}while(optiune != 0);
 
 		
 		
@@ -35,9 +35,11 @@ public class Facade {
 		//observam ca cele doua instante ocupa aceeasi adresa in memorie
 		Evidenta ResurseUmane2 = Evidenta.getInstance();
 		ResurseUmane2.afisare_date();
+		*/
 		
-		Fereastra editor = new Fereastra(ResurseUmane2);
-		ResurseUmane2.adaugaObserver(editor);	
+		Evidenta ResurseUmane3 = Evidenta.getInstance();
+		Fereastra editor = new Fereastra(ResurseUmane3);
+		ResurseUmane3.adaugaObserver(editor);
 	}
 	
 	private void citire_persoane_consola()

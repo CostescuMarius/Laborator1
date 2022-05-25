@@ -1,6 +1,6 @@
 package edu.marius;
 
-public class Factory {
+public class Specializare {
 
 	public ResursaUmana crearePersoana(String specializare)
 	{

@@ -1,36 +1,28 @@
 package GUI;
 
 import java.awt.Color;
-import java.awt.image.BufferedImage;
-import java.io.File;
-import java.io.IOException;
 import java.util.List;
 
-import javax.imageio.ImageIO;
 import javax.swing.BorderFactory;
-import javax.swing.ImageIcon;
-import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JList;
 import javax.swing.JScrollPane;
+import javax.swing.SwingConstants;
 import javax.swing.event.ListSelectionEvent;
 import javax.swing.event.ListSelectionListener;
 
-import edu.marius.Competenta;
 import edu.marius.Evidenta;
 import edu.marius.Persoana;
 
 public class Fereastra implements Observer{
 
 	private JFrame f = new JFrame();
+	Evidenta evidenta;
 	private Meniu meniu = new Meniu();
 	private Butoane butoane;
-	private JLabel lbl_fundal = new JLabel();
 	private JLabel[] celule_arbore = new JLabel[10];
-	Evidenta evidenta;
 	JList<Object> lista_nume;
-	JList<Object> date_persoana;
 	
 	public Fereastra(Evidenta e)
 	{
@@ -48,8 +40,9 @@ public class Fereastra implements Observer{
 		
 		selectare_element_lista();
 		
-		//adaugare_fundal_arbore();
 		adaugare_celule_arbore();
+		
+		setare_spatiu_arbore();
 	}
 	
 	private void setare_fereastra()
@@ -60,7 +53,7 @@ public class Fereastra implements Observer{
 		f.setTitle("Editor Resurse Umane");
 		f.setResizable(false);
 		f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		f.getContentPane().setBackground(Color.gray);
+		f.getContentPane().setBackground(Color.LIGHT_GRAY);
 	}
 	
 	private void adaugare_liste()
@@ -73,11 +66,6 @@ public class Fereastra implements Observer{
 		scrollPane.setBorder(BorderFactory.createLineBorder(Color.black, 2));
 		f.add(scrollPane);
 		lista_nume.setVisible(true);
-
-		//date_persoana = new JList<>(evidenta.getPersoaneActive().toArray());
-		//date_persoana.setBounds(590, 40, 880, 710);
-		//date_persoana.setBorder(BorderFactory.createLineBorder(Color.black, 2));
-		//f.add(date_persoana);
 	}
 	
 	public void adaugare_celule_arbore()
@@ -85,17 +73,23 @@ public class Fereastra implements Observer{
 		for(int i = 0; i < 10; i++)
 		{
 			celule_arbore[i] = new JLabel();
+			celule_arbore[i].setHorizontalAlignment(SwingConstants.CENTER);
+			celule_arbore[i].setVerticalAlignment(SwingConstants.CENTER);
 			f.add(celule_arbore[i]);
 			celule_arbore[i].setVisible(false);
 		}
 	}
 	
-	private void adaugare_fundal_arbore()
+	private void setare_spatiu_arbore()
 	{
-		lbl_fundal.setBounds(590, 40, 880, 710);
-		lbl_fundal.setBackground(Color.white);
-		lbl_fundal.setOpaque(true);
-        f.add(lbl_fundal);
+		JLabel spatiu_arbore = new JLabel();
+		
+		spatiu_arbore.setBackground(Color.white);
+		spatiu_arbore.setOpaque(true);
+		spatiu_arbore.setBounds(600, 40, 870, 700);
+		spatiu_arbore.setBorder(BorderFactory.createLineBorder(new Color(50, 0 , 100), 3));
+		
+		f.add(spatiu_arbore);
 	}
 	
 	public void selectare_element_lista()
@@ -104,7 +98,6 @@ public class Fereastra implements Observer{
 
             public void valueChanged(ListSelectionEvent event) {
                 if (!event.getValueIsAdjusting()){
-            		//evidenta.afisare_detalii_persoana(lista_nume.getSelectedValue());
                 	evidenta.afisare_detalii_persoana(lista_nume.getSelectedValue(), celule_arbore);
                 }
             }
@@ -112,27 +105,21 @@ public class Fereastra implements Observer{
 	}
 	
 	@Override
-	public void update(List<Persoana> list) 
-	{	
-		lista_nume.setForeground(Color.black);
+	public void update(List<Persoana> list, int index_culoare) 
+	{
+		if(index_culoare == 1)
+		{
+			lista_nume.setForeground(Color.black);
+		}
+		else if(index_culoare == 2)
+		{
+			lista_nume.setForeground(new Color(0, 100, 0));
+		}
+		else if(index_culoare == 3)
+		{
+			lista_nume.setForeground(new Color(100, 0, 0));
+		}
 		lista_nume.setSelectionBackground(Color.cyan);
 		lista_nume.setListData(list.toArray());
-	}
-	
-	public void update_activi(List<Persoana> list) 
-	{	
-		lista_nume.setForeground(new Color(0, 100, 0));
-		lista_nume.setListData(list.toArray());
-	}
-	
-	public void update_inactivi(List<Persoana> list) 
-	{
-		lista_nume.setForeground(new Color(100, 0, 0));
-		lista_nume.setListData(list.toArray());
-	}
-	
-	public void update_lista_detalii(List<Competenta> list)
-	{
-		date_persoana.setListData(list.toArray());
 	}
 }

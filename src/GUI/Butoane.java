@@ -1,6 +1,7 @@
 package GUI;
 
 import java.awt.Color;
+import java.awt.Font;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.Random;
@@ -21,7 +22,6 @@ public class Butoane {
 	private JButton btnSterge = new JButton();
 	private JButton btnModifica = new JButton();
 	private JButton btnAdaugaN = new JButton();
-	//private JButton btnSchimbaListe = new JButton();
 	private JButton btnPersonalTotal = new JButton();
 	private JButton btnPersonalActiv = new JButton();
 	private JButton btnPersonalInactiv = new JButton();
@@ -58,16 +58,11 @@ public class Butoane {
 		functie_buton_adaugaN(Resurse);
 		btnAdaugaN.setVisible(true);
 		
-		/*btnSchimbaListe = new JButton("Schimba Liste");
-		btnSchimbaListe.setBounds(430, 380, 140, 20);
-		functie_buton_schimba_liste(Resurse);
-		btnSchimbaListe.setVisible(true);*/
-		
 		btnPersonalTotal = new JButton("Personal total");
 		btnPersonalTotal.setBounds(10, 10, 120, 20);
 		functie_buton_personaltotal(Resurse);
 		btnPersonalTotal.setVisible(true);
-		btnPersonalTotal.setBackground(Color.black);
+		btnPersonalTotal.setBackground(new Color(66, 66, 66));
 		btnPersonalTotal.setForeground(Color.white);
 		btnPersonalTotal.setBorder(BorderFactory.createLineBorder(Color.white,1));
 		
@@ -75,7 +70,7 @@ public class Butoane {
 		btnPersonalActiv.setBounds(140, 10, 120, 20);
 		functie_buton_personalactiv(Resurse);
 		btnPersonalActiv.setVisible(true);
-		btnPersonalActiv.setBackground(Color.black);
+		btnPersonalActiv.setBackground(new Color(66, 66, 66));
 		btnPersonalActiv.setForeground(Color.white);
 		btnPersonalActiv.setBorder(BorderFactory.createLineBorder(Color.white,1));
 		
@@ -83,7 +78,7 @@ public class Butoane {
 		btnPersonalInactiv.setBounds(270, 10, 140, 20);
 		functie_buton_personalinactiv(Resurse);
 		btnPersonalInactiv.setVisible(true);
-		btnPersonalInactiv.setBackground(Color.black);
+		btnPersonalInactiv.setBackground(new Color(66, 66, 66));
 		btnPersonalInactiv.setForeground(Color.white);
 		btnPersonalInactiv.setBorder(BorderFactory.createLineBorder(Color.white,1));
 	}
@@ -94,9 +89,9 @@ public class Butoane {
 		{
 			public void actionPerformed(ActionEvent e)
 			{
-				Persoana p_temp = generare_persoane_random();
+				Persoana persoana_temp = generare_persoane_random();
 				
-				Resurse.AdaugaPersoana(p_temp);
+				Resurse.AdaugaPersoana(persoana_temp);
 			}
 		});
 	}
@@ -190,17 +185,6 @@ public class Butoane {
 			}
 		});
 	}
-	/*private void functie_buton_schimba_liste(Evidenta Resurse)
-	{
-
-		btnSchimbaListe.addActionListener(new ActionListener()
-		{
-			public void actionPerformed(ActionEvent e)
-			{
-				Resurse.SchimbaListe();
-			}
-		});
-	}*/
 	
 	public void adaugare_butoane_in_fereastra(JFrame f)
 	{		
@@ -210,8 +194,6 @@ public class Butoane {
 		
 		
 		f.add(btnModifica);
-
-		//f.add(btnSchimbaListe);
 		
 		f.add(btnPersonalTotal);
 		
@@ -226,8 +208,10 @@ public class Butoane {
 	{
 		label1 = new JLabel();
 		label1.setText("Nume");
-		label1.setBounds(483, 140, 140, 20);
-		label1.setForeground(Color.ORANGE);
+		label1.setBounds(480, 140, 140, 20);
+		label1.setForeground(new Color(128,0,128));
+		Font font = new Font("Cambria", Font.BOLD, 16);
+		label1. setFont(font);
 		text1 = new JTextField(10);
 		text1.setBounds(430, 160, 140, 20);
 		text1.setVisible(true);
@@ -235,10 +219,11 @@ public class Butoane {
 
 		label2 = new JLabel();
 		label2.setText("Numar persoane");
-		label2.setBounds(452, 698, 140, 20);
-		label2.setForeground(Color.ORANGE);
+		label2.setBounds(437, 693, 140, 20);
+		label2.setForeground(new Color(128,0,128));
+		label2.setFont(font);
 		text2 = new JTextField(10);
-		text2.setBounds(422, 720, 150, 20);
+		text2.setBounds(422, 713, 150, 20);
 		text2.setVisible(true);
 	}
 	

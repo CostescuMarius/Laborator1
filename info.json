@@ -1,1 +1,4227 @@
-[]
+[
+  {
+    "nume": "XAJPMTY",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 6,
+      "lista_domenii": [
+        {
+          "denumire": "JCC",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "JCB",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "BJJ",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "CCC",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "+BB",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "JBC",
+          "scor": 0,
+          "e_frunza": false
+        }
+      ]
+    }
+  },
+  {
+    "nume": "JRZUJLI",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 3,
+      "lista_domenii": [
+        {
+          "denumire": "JCB",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "BB+",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "JJC",
+          "scor": 0,
+          "e_frunza": false
+        }
+      ]
+    }
+  },
+  {
+    "nume": "TJFATKP",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 5,
+      "lista_domenii": [
+        {
+          "denumire": "BBB",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "BBC",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "+++",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "CBC",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "+CB",
+          "scor": 0,
+          "e_frunza": false
+        }
+      ]
+    }
+  },
+  {
+    "nume": "IXVKNGI",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 4,
+      "lista_domenii": [
+        {
+          "denumire": "CBC",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "J+C",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "CBB",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "JBJ",
+          "scor": 0,
+          "e_frunza": false
+        }
+      ]
+    }
+  },
+  {
+    "nume": "ZIPELLY",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 3,
+      "lista_domenii": [
+        {
+          "denumire": "B++",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "C++",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "+BJ",
+          "scor": 0,
+          "e_frunza": false
+        }
+      ]
+    }
+  },
+  {
+    "nume": "ROHSOKS",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 4,
+      "lista_domenii": [
+        {
+          "denumire": "+CC",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "CCB",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "JBB",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "+BB",
+          "scor": 0,
+          "e_frunza": false
+        }
+      ]
+    }
+  },
+  {
+    "nume": "HUFCSIC",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 3,
+      "lista_domenii": [
+        {
+          "denumire": "JBJ",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "JC+",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "++B",
+          "scor": 1,
+          "e_frunza": true
+        }
+      ]
+    }
+  },
+  {
+    "nume": "AHAOPPP",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 5,
+      "lista_domenii": [
+        {
+          "denumire": "J+B",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "CJJ",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "BJB",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "+BB",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "BJC",
+          "scor": 0,
+          "e_frunza": false
+        }
+      ]
+    }
+  },
+  {
+    "nume": "WWPWOUI",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 4,
+      "lista_domenii": [
+        {
+          "denumire": "B++",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "+JC",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "CC+",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "+CC",
+          "scor": 1,
+          "e_frunza": true
+        }
+      ]
+    }
+  },
+  {
+    "nume": "NOOLUYV",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 5,
+      "lista_domenii": [
+        {
+          "denumire": "JBC",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "C+J",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "CBJ",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "+BJ",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "J+J",
+          "scor": 0,
+          "e_frunza": false
+        }
+      ]
+    }
+  },
+  {
+    "nume": "REROMHY",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 5,
+      "lista_domenii": [
+        {
+          "denumire": "CJJ",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "CBJ",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "CJB",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "JJ+",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "B+J",
+          "scor": 0,
+          "e_frunza": false
+        }
+      ]
+    }
+  },
+  {
+    "nume": "SAYPEPW",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 5,
+      "lista_domenii": [
+        {
+          "denumire": "J+B",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "JBJ",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "+BJ",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "+JJ",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "BCC",
+          "scor": 1,
+          "e_frunza": true
+        }
+      ]
+    }
+  },
+  {
+    "nume": "YWQEPUS",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 4,
+      "lista_domenii": [
+        {
+          "denumire": "CCC",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "+JJ",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "JCJ",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "JJ+",
+          "scor": 1,
+          "e_frunza": true
+        }
+      ]
+    }
+  },
+  {
+    "nume": "VHIQETH",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 3,
+      "lista_domenii": [
+        {
+          "denumire": "J+C",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "+JC",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "BBJ",
+          "scor": 1,
+          "e_frunza": true
+        }
+      ]
+    }
+  },
+  {
+    "nume": "NGUDOLJ",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 5,
+      "lista_domenii": [
+        {
+          "denumire": "B+J",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "JCC",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "BBJ",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "+BB",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "BBJ",
+          "scor": 1,
+          "e_frunza": true
+        }
+      ]
+    }
+  },
+  {
+    "nume": "WZDFMOW",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 3,
+      "lista_domenii": [
+        {
+          "denumire": "B++",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "B+J",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "BCB",
+          "scor": 0,
+          "e_frunza": false
+        }
+      ]
+    }
+  },
+  {
+    "nume": "HBTNRSQ",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 5,
+      "lista_domenii": [
+        {
+          "denumire": "+BC",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "+JB",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "+CB",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "+CC",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "BBB",
+          "scor": 0,
+          "e_frunza": false
+        }
+      ]
+    }
+  },
+  {
+    "nume": "CNOFNTQ",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 5,
+      "lista_domenii": [
+        {
+          "denumire": "JC+",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "+BB",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "+++",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "BJC",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "+++",
+          "scor": 1,
+          "e_frunza": true
+        }
+      ]
+    }
+  },
+  {
+    "nume": "HSTJVAJ",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 4,
+      "lista_domenii": [
+        {
+          "denumire": "JB+",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "CJC",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "CJB",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "CC+",
+          "scor": 0,
+          "e_frunza": false
+        }
+      ]
+    }
+  },
+  {
+    "nume": "OXEGAXH",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 3,
+      "lista_domenii": [
+        {
+          "denumire": "CJJ",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "CCB",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "JC+",
+          "scor": 0,
+          "e_frunza": false
+        }
+      ]
+    }
+  },
+  {
+    "nume": "BJTVTLB",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 4,
+      "lista_domenii": [
+        {
+          "denumire": "BJ+",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "++B",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "JCC",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "BJJ",
+          "scor": 0,
+          "e_frunza": false
+        }
+      ]
+    }
+  },
+  {
+    "nume": "GGUDPUO",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 3,
+      "lista_domenii": [
+        {
+          "denumire": "+JC",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "BCB",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "BBB",
+          "scor": 1,
+          "e_frunza": true
+        }
+      ]
+    }
+  },
+  {
+    "nume": "QQEYWJC",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 5,
+      "lista_domenii": [
+        {
+          "denumire": "+CJ",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "JJ+",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "+B+",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "J+B",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "+JB",
+          "scor": 1,
+          "e_frunza": true
+        }
+      ]
+    }
+  },
+  {
+    "nume": "ENYYYAP",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 4,
+      "lista_domenii": [
+        {
+          "denumire": "C+C",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "+JB",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "+CB",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "CJC",
+          "scor": 1,
+          "e_frunza": true
+        }
+      ]
+    }
+  },
+  {
+    "nume": "ROIVKLY",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 3,
+      "lista_domenii": [
+        {
+          "denumire": "BC+",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "CBJ",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "J+B",
+          "scor": 0,
+          "e_frunza": false
+        }
+      ]
+    }
+  },
+  {
+    "nume": "AXGUYLY",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 6,
+      "lista_domenii": [
+        {
+          "denumire": "C+J",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "+BJ",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "++J",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "+JB",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "+C+",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "CCC",
+          "scor": 0,
+          "e_frunza": false
+        }
+      ]
+    }
+  },
+  {
+    "nume": "ZUIAPWW",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 4,
+      "lista_domenii": [
+        {
+          "denumire": "BJB",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "BC+",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "JCC",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "++C",
+          "scor": 1,
+          "e_frunza": true
+        }
+      ]
+    }
+  },
+  {
+    "nume": "MAGLJNI",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 5,
+      "lista_domenii": [
+        {
+          "denumire": "+JC",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "CBJ",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "CCC",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "CJC",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "CBB",
+          "scor": 1,
+          "e_frunza": true
+        }
+      ]
+    }
+  },
+  {
+    "nume": "PTWQWSK",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 5,
+      "lista_domenii": [
+        {
+          "denumire": "BJJ",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "BC+",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "BBC",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "BJB",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "J+J",
+          "scor": 1,
+          "e_frunza": true
+        }
+      ]
+    }
+  },
+  {
+    "nume": "ROQRXJV",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 6,
+      "lista_domenii": [
+        {
+          "denumire": "J+J",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "CCJ",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "CJC",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "JJC",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "+JC",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "JBC",
+          "scor": 1,
+          "e_frunza": true
+        }
+      ]
+    }
+  },
+  {
+    "nume": "ZKLQZVR",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 6,
+      "lista_domenii": [
+        {
+          "denumire": "CJ+",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "CC+",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "CBJ",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "+C+",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "J+J",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "JBB",
+          "scor": 0,
+          "e_frunza": false
+        }
+      ]
+    }
+  },
+  {
+    "nume": "OJEKXJA",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 4,
+      "lista_domenii": [
+        {
+          "denumire": "C++",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "+CJ",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "JB+",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "C+C",
+          "scor": 1,
+          "e_frunza": true
+        }
+      ]
+    }
+  },
+  {
+    "nume": "BFFLQYJ",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 6,
+      "lista_domenii": [
+        {
+          "denumire": "J+B",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "++C",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "+++",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "B+J",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "BJC",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "CBC",
+          "scor": 0,
+          "e_frunza": false
+        }
+      ]
+    }
+  },
+  {
+    "nume": "NHLOXNL",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 6,
+      "lista_domenii": [
+        {
+          "denumire": "JBJ",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "CC+",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "+C+",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "JBJ",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "BBC",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "+JB",
+          "scor": 0,
+          "e_frunza": false
+        }
+      ]
+    }
+  },
+  {
+    "nume": "GEFLNTG",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 6,
+      "lista_domenii": [
+        {
+          "denumire": "+JJ",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "++J",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "BCC",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "+BJ",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "+JB",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "B+J",
+          "scor": 0,
+          "e_frunza": false
+        }
+      ]
+    }
+  },
+  {
+    "nume": "BFTNEET",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 4,
+      "lista_domenii": [
+        {
+          "denumire": "J+B",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "+CB",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "J++",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "CJC",
+          "scor": 0,
+          "e_frunza": false
+        }
+      ]
+    }
+  },
+  {
+    "nume": "QOHKGPN",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 5,
+      "lista_domenii": [
+        {
+          "denumire": "JCJ",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "JCB",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "J+C",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "++B",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "C++",
+          "scor": 0,
+          "e_frunza": false
+        }
+      ]
+    }
+  },
+  {
+    "nume": "XYTGKDV",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 5,
+      "lista_domenii": [
+        {
+          "denumire": "+C+",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "BCC",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "JBJ",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "+J+",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "JBJ",
+          "scor": 0,
+          "e_frunza": false
+        }
+      ]
+    }
+  },
+  {
+    "nume": "LLCUNQE",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 5,
+      "lista_domenii": [
+        {
+          "denumire": "J+C",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "BCB",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "+++",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "CJC",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "CJB",
+          "scor": 1,
+          "e_frunza": true
+        }
+      ]
+    }
+  },
+  {
+    "nume": "HNHLHGB",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 5,
+      "lista_domenii": [
+        {
+          "denumire": "JCC",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "JCC",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "+JC",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "+C+",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "+BC",
+          "scor": 1,
+          "e_frunza": true
+        }
+      ]
+    }
+  },
+  {
+    "nume": "TXDPHIC",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 4,
+      "lista_domenii": [
+        {
+          "denumire": "B+C",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "B++",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "+BJ",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "JB+",
+          "scor": 1,
+          "e_frunza": true
+        }
+      ]
+    }
+  },
+  {
+    "nume": "BRIIGLA",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 4,
+      "lista_domenii": [
+        {
+          "denumire": "BBJ",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "JJB",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "CJC",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "J++",
+          "scor": 0,
+          "e_frunza": false
+        }
+      ]
+    }
+  },
+  {
+    "nume": "WUJUQPY",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 5,
+      "lista_domenii": [
+        {
+          "denumire": "++J",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "CC+",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "+++",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "C+B",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "+BC",
+          "scor": 0,
+          "e_frunza": false
+        }
+      ]
+    }
+  },
+  {
+    "nume": "VVWQHTU",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 6,
+      "lista_domenii": [
+        {
+          "denumire": "BJ+",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "+++",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "CJJ",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "+JJ",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "JJC",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "+B+",
+          "scor": 1,
+          "e_frunza": true
+        }
+      ]
+    }
+  },
+  {
+    "nume": "ZMBRRAD",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 3,
+      "lista_domenii": [
+        {
+          "denumire": "+BC",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "BBC",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "BCJ",
+          "scor": 0,
+          "e_frunza": false
+        }
+      ]
+    }
+  },
+  {
+    "nume": "RXTXPTQ",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 3,
+      "lista_domenii": [
+        {
+          "denumire": "BJB",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "B+J",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "B+J",
+          "scor": 1,
+          "e_frunza": true
+        }
+      ]
+    }
+  },
+  {
+    "nume": "ZFRWSNU",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 6,
+      "lista_domenii": [
+        {
+          "denumire": "+BJ",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "+JB",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "+BJ",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "BB+",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "B+B",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "BBC",
+          "scor": 1,
+          "e_frunza": true
+        }
+      ]
+    }
+  },
+  {
+    "nume": "KTMQINK",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 6,
+      "lista_domenii": [
+        {
+          "denumire": "JJ+",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "J+B",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "+JJ",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "B+C",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "+BJ",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "CC+",
+          "scor": 1,
+          "e_frunza": true
+        }
+      ]
+    }
+  },
+  {
+    "nume": "KBVTKQK",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 3,
+      "lista_domenii": [
+        {
+          "denumire": "+JJ",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "BJJ",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "CBC",
+          "scor": 1,
+          "e_frunza": true
+        }
+      ]
+    }
+  },
+  {
+    "nume": "ABIMRQR",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 3,
+      "lista_domenii": [
+        {
+          "denumire": "BJC",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "CB+",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "+BC",
+          "scor": 1,
+          "e_frunza": true
+        }
+      ]
+    }
+  },
+  {
+    "nume": "KEZDKHZ",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 6,
+      "lista_domenii": [
+        {
+          "denumire": "BCB",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "J++",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "BCJ",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "CBB",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "JCJ",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "BJ+",
+          "scor": 0,
+          "e_frunza": false
+        }
+      ]
+    }
+  },
+  {
+    "nume": "WOFXSWR",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 4,
+      "lista_domenii": [
+        {
+          "denumire": "CJ+",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "JBC",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "BCC",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "CC+",
+          "scor": 0,
+          "e_frunza": false
+        }
+      ]
+    }
+  },
+  {
+    "nume": "BGMHUHW",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 6,
+      "lista_domenii": [
+        {
+          "denumire": "+JB",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "+J+",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "BBC",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "C+B",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "BBJ",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "B+C",
+          "scor": 1,
+          "e_frunza": true
+        }
+      ]
+    }
+  },
+  {
+    "nume": "MUIMUKH",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 4,
+      "lista_domenii": [
+        {
+          "denumire": "+JJ",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "JJB",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "JC+",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "CJJ",
+          "scor": 1,
+          "e_frunza": true
+        }
+      ]
+    }
+  },
+  {
+    "nume": "CEWYBQQ",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 6,
+      "lista_domenii": [
+        {
+          "denumire": "CBC",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "BBC",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "JBC",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "+JJ",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "+CC",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "JJ+",
+          "scor": 0,
+          "e_frunza": false
+        }
+      ]
+    }
+  },
+  {
+    "nume": "MCBTTNC",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 4,
+      "lista_domenii": [
+        {
+          "denumire": "CCB",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "+JC",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "+BJ",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "J+B",
+          "scor": 1,
+          "e_frunza": true
+        }
+      ]
+    }
+  },
+  {
+    "nume": "RIQTCGY",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 6,
+      "lista_domenii": [
+        {
+          "denumire": "J+B",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "+JC",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "JBB",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "+C+",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "B+C",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "++C",
+          "scor": 1,
+          "e_frunza": true
+        }
+      ]
+    }
+  },
+  {
+    "nume": "JYIKFAG",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 4,
+      "lista_domenii": [
+        {
+          "denumire": "BBJ",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "+CJ",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "BJC",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "J+B",
+          "scor": 0,
+          "e_frunza": false
+        }
+      ]
+    }
+  },
+  {
+    "nume": "PVGWPKE",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 4,
+      "lista_domenii": [
+        {
+          "denumire": "CCJ",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "+JC",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "BCB",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "J+C",
+          "scor": 0,
+          "e_frunza": false
+        }
+      ]
+    }
+  },
+  {
+    "nume": "QLRMINW",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 4,
+      "lista_domenii": [
+        {
+          "denumire": "BCJ",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "C+C",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "B++",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "CCB",
+          "scor": 0,
+          "e_frunza": false
+        }
+      ]
+    }
+  },
+  {
+    "nume": "QMRBFEW",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 5,
+      "lista_domenii": [
+        {
+          "denumire": "CBJ",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "CC+",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "J+C",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "+C+",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "CCC",
+          "scor": 0,
+          "e_frunza": false
+        }
+      ]
+    }
+  },
+  {
+    "nume": "IWNCWHH",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 5,
+      "lista_domenii": [
+        {
+          "denumire": "B+C",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "CJB",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "JJB",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "BB+",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "JBJ",
+          "scor": 0,
+          "e_frunza": false
+        }
+      ]
+    }
+  },
+  {
+    "nume": "YRXDHNN",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 6,
+      "lista_domenii": [
+        {
+          "denumire": "CJ+",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "BCC",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "+BB",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "JJJ",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "JCJ",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "CJB",
+          "scor": 1,
+          "e_frunza": true
+        }
+      ]
+    }
+  },
+  {
+    "nume": "KNYGSEY",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 5,
+      "lista_domenii": [
+        {
+          "denumire": "BCJ",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "C+B",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "J++",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "CJC",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "JC+",
+          "scor": 1,
+          "e_frunza": true
+        }
+      ]
+    }
+  },
+  {
+    "nume": "CIPVBEB",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 6,
+      "lista_domenii": [
+        {
+          "denumire": "BB+",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "CCJ",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "+B+",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "BCB",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "JJC",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "BBJ",
+          "scor": 0,
+          "e_frunza": false
+        }
+      ]
+    }
+  },
+  {
+    "nume": "PDEHGDX",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 4,
+      "lista_domenii": [
+        {
+          "denumire": "+BB",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "BCC",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "JJC",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "+J+",
+          "scor": 0,
+          "e_frunza": false
+        }
+      ]
+    }
+  },
+  {
+    "nume": "KKTELRW",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 4,
+      "lista_domenii": [
+        {
+          "denumire": "++C",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "+BC",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "BBJ",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "J+B",
+          "scor": 1,
+          "e_frunza": true
+        }
+      ]
+    }
+  },
+  {
+    "nume": "QFPKKIR",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 4,
+      "lista_domenii": [
+        {
+          "denumire": "CCB",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "B++",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "CBC",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "JBB",
+          "scor": 0,
+          "e_frunza": false
+        }
+      ]
+    }
+  },
+  {
+    "nume": "IVRKLVJ",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 6,
+      "lista_domenii": [
+        {
+          "denumire": "+C+",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "BCJ",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "+CC",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "B++",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "CB+",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "BJB",
+          "scor": 0,
+          "e_frunza": false
+        }
+      ]
+    }
+  },
+  {
+    "nume": "NUHHLHP",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 5,
+      "lista_domenii": [
+        {
+          "denumire": "BC+",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "+++",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "++C",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "CJC",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "+JB",
+          "scor": 0,
+          "e_frunza": false
+        }
+      ]
+    }
+  },
+  {
+    "nume": "GHJFTVX",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 4,
+      "lista_domenii": [
+        {
+          "denumire": "J+C",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "C+C",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "+CC",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "+BJ",
+          "scor": 0,
+          "e_frunza": false
+        }
+      ]
+    }
+  },
+  {
+    "nume": "AVEWMOQ",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 5,
+      "lista_domenii": [
+        {
+          "denumire": "++J",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "BBC",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "CJB",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "+JC",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "JBJ",
+          "scor": 0,
+          "e_frunza": false
+        }
+      ]
+    }
+  },
+  {
+    "nume": "ATMNRJE",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 6,
+      "lista_domenii": [
+        {
+          "denumire": "C++",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "BCC",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "JBC",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "+J+",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "BJC",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "+BB",
+          "scor": 1,
+          "e_frunza": true
+        }
+      ]
+    }
+  },
+  {
+    "nume": "CKUQZJQ",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 5,
+      "lista_domenii": [
+        {
+          "denumire": "CJ+",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "CJC",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "+BC",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "JBJ",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "+CC",
+          "scor": 1,
+          "e_frunza": true
+        }
+      ]
+    }
+  },
+  {
+    "nume": "GUNQELV",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 3,
+      "lista_domenii": [
+        {
+          "denumire": "JBC",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "C+C",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "B+C",
+          "scor": 0,
+          "e_frunza": false
+        }
+      ]
+    }
+  },
+  {
+    "nume": "TLCHBYZ",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 5,
+      "lista_domenii": [
+        {
+          "denumire": "+JB",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "+JB",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "J++",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "C+B",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "JCJ",
+          "scor": 1,
+          "e_frunza": true
+        }
+      ]
+    }
+  },
+  {
+    "nume": "UPHDQXE",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 3,
+      "lista_domenii": [
+        {
+          "denumire": "BBJ",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "BJC",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "CCJ",
+          "scor": 0,
+          "e_frunza": false
+        }
+      ]
+    }
+  },
+  {
+    "nume": "WJNAITK",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 3,
+      "lista_domenii": [
+        {
+          "denumire": "CB+",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "BBJ",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "JC+",
+          "scor": 0,
+          "e_frunza": false
+        }
+      ]
+    }
+  },
+  {
+    "nume": "JZJTHJQ",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 5,
+      "lista_domenii": [
+        {
+          "denumire": "JCC",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "JCB",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "JJB",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "++C",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "+BC",
+          "scor": 0,
+          "e_frunza": false
+        }
+      ]
+    }
+  },
+  {
+    "nume": "XDFKHUG",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 3,
+      "lista_domenii": [
+        {
+          "denumire": "C+J",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "+B+",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "CB+",
+          "scor": 1,
+          "e_frunza": true
+        }
+      ]
+    }
+  },
+  {
+    "nume": "THGBYQU",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 3,
+      "lista_domenii": [
+        {
+          "denumire": "C+B",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "BC+",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "CC+",
+          "scor": 0,
+          "e_frunza": false
+        }
+      ]
+    }
+  },
+  {
+    "nume": "SWTVJEN",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 5,
+      "lista_domenii": [
+        {
+          "denumire": "JB+",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "C+B",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "CCJ",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "BBJ",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "+BJ",
+          "scor": 1,
+          "e_frunza": true
+        }
+      ]
+    }
+  },
+  {
+    "nume": "OFRJPGO",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 5,
+      "lista_domenii": [
+        {
+          "denumire": "JJB",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "BJC",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "JJJ",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "C+C",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "JCJ",
+          "scor": 1,
+          "e_frunza": true
+        }
+      ]
+    }
+  },
+  {
+    "nume": "UZDREEJ",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 4,
+      "lista_domenii": [
+        {
+          "denumire": "JBB",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "C+C",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "+C+",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "JJ+",
+          "scor": 0,
+          "e_frunza": false
+        }
+      ]
+    }
+  },
+  {
+    "nume": "EFLUDWX",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 5,
+      "lista_domenii": [
+        {
+          "denumire": "+++",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "+CB",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "B+J",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "BCB",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "CJ+",
+          "scor": 1,
+          "e_frunza": true
+        }
+      ]
+    }
+  },
+  {
+    "nume": "AOINTQH",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 6,
+      "lista_domenii": [
+        {
+          "denumire": "CJJ",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "++C",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "B++",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "CCB",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "B+B",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "JCC",
+          "scor": 1,
+          "e_frunza": true
+        }
+      ]
+    }
+  },
+  {
+    "nume": "HYSEOZM",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 6,
+      "lista_domenii": [
+        {
+          "denumire": "BCC",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "BJB",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "+JC",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "+C+",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "BC+",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "CBC",
+          "scor": 0,
+          "e_frunza": false
+        }
+      ]
+    }
+  },
+  {
+    "nume": "DZJOEHA",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 3,
+      "lista_domenii": [
+        {
+          "denumire": "CJC",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "CJJ",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "J+C",
+          "scor": 1,
+          "e_frunza": true
+        }
+      ]
+    }
+  },
+  {
+    "nume": "IUFSALW",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 3,
+      "lista_domenii": [
+        {
+          "denumire": "+BJ",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "BBJ",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "CCB",
+          "scor": 0,
+          "e_frunza": false
+        }
+      ]
+    }
+  },
+  {
+    "nume": "OTEBLHR",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 6,
+      "lista_domenii": [
+        {
+          "denumire": "BCB",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "B++",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "+B+",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "BJJ",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "+B+",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "+BJ",
+          "scor": 1,
+          "e_frunza": true
+        }
+      ]
+    }
+  },
+  {
+    "nume": "ZTBYIEX",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 6,
+      "lista_domenii": [
+        {
+          "denumire": "BJ+",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "BCC",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "JJC",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "J++",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "BJ+",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "JJB",
+          "scor": 1,
+          "e_frunza": true
+        }
+      ]
+    }
+  },
+  {
+    "nume": "MWHPRJP",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 3,
+      "lista_domenii": [
+        {
+          "denumire": "JBJ",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "CBJ",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "C++",
+          "scor": 0,
+          "e_frunza": false
+        }
+      ]
+    }
+  },
+  {
+    "nume": "ZPSKGAZ",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 4,
+      "lista_domenii": [
+        {
+          "denumire": "CBJ",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "BB+",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "++J",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "JCB",
+          "scor": 1,
+          "e_frunza": true
+        }
+      ]
+    }
+  },
+  {
+    "nume": "TAYLRXC",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 4,
+      "lista_domenii": [
+        {
+          "denumire": "CJJ",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "B++",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "C++",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "BJJ",
+          "scor": 0,
+          "e_frunza": false
+        }
+      ]
+    }
+  },
+  {
+    "nume": "PVASDSV",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 3,
+      "lista_domenii": [
+        {
+          "denumire": "BBB",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "BCB",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "CCB",
+          "scor": 1,
+          "e_frunza": true
+        }
+      ]
+    }
+  },
+  {
+    "nume": "EQFTXID",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 6,
+      "lista_domenii": [
+        {
+          "denumire": "+BJ",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "+JB",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "JJB",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "+CB",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "CBB",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "+CC",
+          "scor": 1,
+          "e_frunza": true
+        }
+      ]
+    }
+  },
+  {
+    "nume": "EFXQQNR",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 3,
+      "lista_domenii": [
+        {
+          "denumire": "CC+",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "JJ+",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "JBJ",
+          "scor": 1,
+          "e_frunza": true
+        }
+      ]
+    }
+  },
+  {
+    "nume": "URCRXYG",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 4,
+      "lista_domenii": [
+        {
+          "denumire": "CCJ",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "++J",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "BJ+",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "CBB",
+          "scor": 1,
+          "e_frunza": true
+        }
+      ]
+    }
+  },
+  {
+    "nume": "NJDSJXJ",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 5,
+      "lista_domenii": [
+        {
+          "denumire": "BB+",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "+++",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "B+B",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "BJ+",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "CC+",
+          "scor": 1,
+          "e_frunza": true
+        }
+      ]
+    }
+  },
+  {
+    "nume": "NHHTIFT",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 3,
+      "lista_domenii": [
+        {
+          "denumire": "CBC",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "JBC",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "JBJ",
+          "scor": 1,
+          "e_frunza": true
+        }
+      ]
+    }
+  },
+  {
+    "nume": "MOLSTJL",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 6,
+      "lista_domenii": [
+        {
+          "denumire": "+CC",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "+CC",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "B++",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "C+B",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "BJB",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "JBC",
+          "scor": 0,
+          "e_frunza": false
+        }
+      ]
+    }
+  },
+  {
+    "nume": "EQKQHGX",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 3,
+      "lista_domenii": [
+        {
+          "denumire": "BCC",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "CC+",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "B+B",
+          "scor": 1,
+          "e_frunza": true
+        }
+      ]
+    }
+  },
+  {
+    "nume": "YOEZJMW",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 4,
+      "lista_domenii": [
+        {
+          "denumire": "C++",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "CB+",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "JJB",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "+B+",
+          "scor": 1,
+          "e_frunza": true
+        }
+      ]
+    }
+  },
+  {
+    "nume": "GDWQCZP",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 5,
+      "lista_domenii": [
+        {
+          "denumire": "JCJ",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "BJJ",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "+B+",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "J+B",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "CJJ",
+          "scor": 0,
+          "e_frunza": false
+        }
+      ]
+    }
+  },
+  {
+    "nume": "RVNKCJO",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 4,
+      "lista_domenii": [
+        {
+          "denumire": "+C+",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "B+B",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "+BJ",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "JJ+",
+          "scor": 0,
+          "e_frunza": false
+        }
+      ]
+    }
+  },
+  {
+    "nume": "QMLOYVU",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 4,
+      "lista_domenii": [
+        {
+          "denumire": "JBC",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "+BB",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "BJC",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "+C+",
+          "scor": 1,
+          "e_frunza": true
+        }
+      ]
+    }
+  },
+  {
+    "nume": "LRZTPRZ",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 6,
+      "lista_domenii": [
+        {
+          "denumire": "JJ+",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "C+C",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "+JJ",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "+CJ",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "+CC",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "CB+",
+          "scor": 1,
+          "e_frunza": true
+        }
+      ]
+    }
+  },
+  {
+    "nume": "YVTOIIZ",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 4,
+      "lista_domenii": [
+        {
+          "denumire": "+BB",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "BJC",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "++B",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "+CC",
+          "scor": 1,
+          "e_frunza": true
+        }
+      ]
+    }
+  },
+  {
+    "nume": "UKBJUWR",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 4,
+      "lista_domenii": [
+        {
+          "denumire": "J++",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "JB+",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "CJ+",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "+BC",
+          "scor": 0,
+          "e_frunza": false
+        }
+      ]
+    }
+  },
+  {
+    "nume": "EBPTYGH",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 4,
+      "lista_domenii": [
+        {
+          "denumire": "CJB",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "+CC",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "B+C",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "+CJ",
+          "scor": 0,
+          "e_frunza": false
+        }
+      ]
+    }
+  },
+  {
+    "nume": "YIOWVWT",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 6,
+      "lista_domenii": [
+        {
+          "denumire": "CJC",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "JJC",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "BCJ",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "B++",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "+JB",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "B++",
+          "scor": 1,
+          "e_frunza": true
+        }
+      ]
+    }
+  },
+  {
+    "nume": "BRCJBPC",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 5,
+      "lista_domenii": [
+        {
+          "denumire": "JBB",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "JB+",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "++C",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "BCJ",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "B+C",
+          "scor": 1,
+          "e_frunza": true
+        }
+      ]
+    }
+  },
+  {
+    "nume": "TAVXGWG",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 3,
+      "lista_domenii": [
+        {
+          "denumire": "B+B",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "JJB",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "+JC",
+          "scor": 1,
+          "e_frunza": true
+        }
+      ]
+    }
+  },
+  {
+    "nume": "ZQEEMZU",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 4,
+      "lista_domenii": [
+        {
+          "denumire": "B++",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "+CJ",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "CBJ",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "JJJ",
+          "scor": 1,
+          "e_frunza": true
+        }
+      ]
+    }
+  },
+  {
+    "nume": "FKWRJWT",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 4,
+      "lista_domenii": [
+        {
+          "denumire": "+BB",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "JJC",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "BBC",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "BCJ",
+          "scor": 1,
+          "e_frunza": true
+        }
+      ]
+    }
+  },
+  {
+    "nume": "NNENRJU",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 6,
+      "lista_domenii": [
+        {
+          "denumire": "B++",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "JBJ",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "CC+",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "B++",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "+C+",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "J++",
+          "scor": 0,
+          "e_frunza": false
+        }
+      ]
+    }
+  },
+  {
+    "nume": "IQXTRZI",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 5,
+      "lista_domenii": [
+        {
+          "denumire": "JBB",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "B++",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "BJ+",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "+++",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "J+C",
+          "scor": 0,
+          "e_frunza": false
+        }
+      ]
+    }
+  },
+  {
+    "nume": "PZNORVL",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 4,
+      "lista_domenii": [
+        {
+          "denumire": "CC+",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "B++",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "BJC",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "JCB",
+          "scor": 0,
+          "e_frunza": false
+        }
+      ]
+    }
+  },
+  {
+    "nume": "HKNHZGE",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 5,
+      "lista_domenii": [
+        {
+          "denumire": "BJJ",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "+J+",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "JC+",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "JCC",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "CBB",
+          "scor": 0,
+          "e_frunza": false
+        }
+      ]
+    }
+  },
+  {
+    "nume": "YFAZUNZ",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 3,
+      "lista_domenii": [
+        {
+          "denumire": "B+B",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "++B",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "+JJ",
+          "scor": 0,
+          "e_frunza": false
+        }
+      ]
+    }
+  },
+  {
+    "nume": "EVKZONO",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 4,
+      "lista_domenii": [
+        {
+          "denumire": "B++",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "+J+",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "JCC",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "B+J",
+          "scor": 0,
+          "e_frunza": false
+        }
+      ]
+    }
+  },
+  {
+    "nume": "BSVGPJG",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 4,
+      "lista_domenii": [
+        {
+          "denumire": "CBB",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "++C",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "+CJ",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "CCJ",
+          "scor": 1,
+          "e_frunza": true
+        }
+      ]
+    }
+  },
+  {
+    "nume": "EGUBVMO",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 3,
+      "lista_domenii": [
+        {
+          "denumire": "BBJ",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "CCC",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "CC+",
+          "scor": 1,
+          "e_frunza": true
+        }
+      ]
+    }
+  },
+  {
+    "nume": "RSAMDOZ",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 5,
+      "lista_domenii": [
+        {
+          "denumire": "B+C",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "++B",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "JBB",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "BJJ",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "JCB",
+          "scor": 0,
+          "e_frunza": false
+        }
+      ]
+    }
+  },
+  {
+    "nume": "IMOEHYI",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 6,
+      "lista_domenii": [
+        {
+          "denumire": "CJ+",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "++C",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "BC+",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "JCJ",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "CCC",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "BC+",
+          "scor": 0,
+          "e_frunza": false
+        }
+      ]
+    }
+  },
+  {
+    "nume": "QGCOOEP",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 4,
+      "lista_domenii": [
+        {
+          "denumire": "JB+",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "CJJ",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "JCJ",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "+CB",
+          "scor": 1,
+          "e_frunza": true
+        }
+      ]
+    }
+  },
+  {
+    "nume": "FELCYBE",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 3,
+      "lista_domenii": [
+        {
+          "denumire": "++B",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "++J",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "+BJ",
+          "scor": 1,
+          "e_frunza": true
+        }
+      ]
+    }
+  },
+  {
+    "nume": "DMILCMF",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 3,
+      "lista_domenii": [
+        {
+          "denumire": "BBJ",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "JC+",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "+BJ",
+          "scor": 0,
+          "e_frunza": false
+        }
+      ]
+    }
+  },
+  {
+    "nume": "LJZDUTO",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 6,
+      "lista_domenii": [
+        {
+          "denumire": "B+C",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "JJ+",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "CBJ",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "CCC",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "JBJ",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "CJJ",
+          "scor": 1,
+          "e_frunza": true
+        }
+      ]
+    }
+  },
+  {
+    "nume": "JCNXSVY",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 3,
+      "lista_domenii": [
+        {
+          "denumire": "BBB",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "JJC",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "CCC",
+          "scor": 1,
+          "e_frunza": true
+        }
+      ]
+    }
+  },
+  {
+    "nume": "ROTYCEC",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 3,
+      "lista_domenii": [
+        {
+          "denumire": "CCJ",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "+++",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "CBB",
+          "scor": 1,
+          "e_frunza": true
+        }
+      ]
+    }
+  },
+  {
+    "nume": "PJCDKWH",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 4,
+      "lista_domenii": [
+        {
+          "denumire": "B+J",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "JJ+",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "CBJ",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "BJC",
+          "scor": 1,
+          "e_frunza": true
+        }
+      ]
+    }
+  },
+  {
+    "nume": "YFWRAEO",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 5,
+      "lista_domenii": [
+        {
+          "denumire": "CCB",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "+++",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "CBJ",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "CCC",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "++C",
+          "scor": 0,
+          "e_frunza": false
+        }
+      ]
+    }
+  },
+  {
+    "nume": "FNWHQXS",
+    "activ": true,
+    "competenta": {
+      "numar_domenii": 5,
+      "lista_domenii": [
+        {
+          "denumire": "+BJ",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "BC+",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "BCB",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "JJ+",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "CBJ",
+          "scor": 1,
+          "e_frunza": true
+        }
+      ]
+    }
+  },
+  {
+    "nume": "asd",
+    "activ": false,
+    "competenta": {
+      "numar_domenii": 4,
+      "lista_domenii": [
+        {
+          "denumire": "JC+",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "JBJ",
+          "scor": 1,
+          "e_frunza": true
+        },
+        {
+          "denumire": "CJJ",
+          "scor": 0,
+          "e_frunza": false
+        },
+        {
+          "denumire": "BCC",
+          "scor": 1,
+          "e_frunza": true
+        }
+      ]
+    }
+  }
+]
