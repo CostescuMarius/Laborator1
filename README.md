@@ -4,3 +4,6 @@ O resursa este o pereche persoana-competenta. O competenta este structurata iera
 
 Codul se gaseste in:
 
+src/edu/marius = Clasele reprezentative obiectelor cu care se lucreaza;
+
+src/GUI = Clasele reprezentative interfetei grafice;
